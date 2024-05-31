@@ -1,5 +1,4 @@
 import passport from "passport";
-import User from "../models/user";
 import { v4 as uuidv4 } from "uuid";
 var GoogleStrategy = require("passport-google-oauth20").Strategy;
 var FacebookStrategy = require("passport-facebook").Strategy;
