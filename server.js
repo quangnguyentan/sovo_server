@@ -12,7 +12,7 @@ app.use(
   cors({
     origin: process.env.CLIENT_URL,
     methods: ["GET", "PUT", "POST", "DELETE"],
-    credentials: false,
+    credentials: true,
   })
 );
 initRoutes(app);
