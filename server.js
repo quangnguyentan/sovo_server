@@ -17,10 +17,6 @@ app.use(express.urlencoded({ extended: true }));
 // );
 app.use(function (req, res, next) {
   res.setHeader(
-    "Access-Control-Allow-Origin",
-    "https://sovo-client.onrender.com/"
-  );
-  res.setHeader(
     "Access-Control-Allow-Methods",
     "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS,CONNECT,TRACE"
   );
